@@ -5,8 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "npm run start",
-    "start": "ts-node index.ts",
-    "start:dynamic": "node -r ts-node/register"
+    "start": "node -r ts-node/register"
   },
   "author": "Duy Le",
   "license": "ISC",
