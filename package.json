@@ -1,0 +1,17 @@
+{
+  "name": "algorithm_practicing",
+  "version": "1.0.0",
+  "description": "A project to keep the practice process of algorithms",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run start",
+    "start": "ts-node index.ts",
+    "start:dynamic": "node -r ts-node/register"
+  },
+  "author": "Duy Le",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
